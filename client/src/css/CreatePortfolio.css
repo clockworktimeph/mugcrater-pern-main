@@ -1,0 +1,68 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Create Portfolio
+/*-----------------------------------------------------------------------------------*/
+.create-portfolio-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  flex-direction: column;
+}
+.create-portfolio-container .form-control {
+  margin-bottom: 10px;
+  border-radius: unset;
+}
+.create-portfolio-container input {
+  height: 56px;
+}
+.create-portfolio-container .form-select {
+  margin-bottom: 10px;
+  border-radius: unset;
+  height: 56px;
+  color: #212529;
+}
+.create-portfolio-container textarea.form-control{
+  height: 400px;
+}
+.create-portfolio-container .btn-primary {
+  width: 100%;
+  height: 56px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #39489e;
+  border: none;
+  border-radius: unset;
+  transition: background 0.3s ease-in-out;
+}
+.create-portfolio-container .btn-primary:hover {
+  background-color: #0056b3;
+}
+.create-portfolio-container .error-text{
+  color: red;
+}
+
+
+.header-with-back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.back-arrow img {
+  width: 32px;
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.back-arrow img:hover {
+  opacity: 0.7;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .create-portfolio-container {
+    padding: 20px;
+    max-width: 90%;
+  }
+}

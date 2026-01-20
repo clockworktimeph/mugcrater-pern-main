@@ -1,0 +1,107 @@
+/*-----------------------------------------------------------------------------------*/ 
+/*  Authentication Pages - Login, Sign Up, Forgot Password
+/*-----------------------------------------------------------------------------------*/
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f9fa;
+}
+
+.auth-box {
+  max-width: 400px;
+  background: white;
+  padding: 2rem;
+  border-radius: 0px;
+  box-shadow: rgba(203, 54, 148, 0.4) 5px 5px, 
+              rgba(203, 54, 148, 0.3) 10px 10px, 
+              rgba(203, 54, 148, 0.2) 15px 15px, 
+              rgba(203, 54, 148, 0.1) 20px 20px;
+  text-align: center;
+}
+
+.auth-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.auth-intro {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.auth-form input {
+  width: 100%;
+  height: 56px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 0pxx;
+  outline: none;
+  transition: 0.3s;
+}
+
+.auth-form input:focus {
+  border-color: #39489e;
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+/* Buttons */
+.auth-btn {
+  width: 100%;
+  height: 56px;
+  background: #39489e;
+  border: none;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background: #d2489a;
+}
+
+/* Links */
+.auth-links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-links a {
+  color: #39489e;
+  text-decoration: none;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+/* Error Messages */
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Success Messages */
+.success-message {
+  color: #28a745;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .auth-box {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,108 @@
+/*-----------------------------------------------------------------------------------*/
+/*  User Table
+/*-----------------------------------------------------------------------------------*/
+
+/* Full-width table container */
+.table-container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Align Search & Filter to Right and Reduce Width */
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filters input,
+.filters select {
+  width: 200px;
+  max-width: 100%;
+  border-radius: 0px;
+}
+.filters button {
+  white-space: nowrap;
+  border-radius: 0px;
+}
+
+/* Make the table wider */
+.wide-table {
+  width: 100%;
+  min-width: 900px;
+  background: white;
+}
+
+/* Responsive Scrolling */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Align "Actions" column to the right */
+.wide-table th:last-child,
+.wide-table td:last-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.pagination button{
+  border-radius: 0px;
+}
+
+/* Buttons */
+.edit-btn, .delete-btn, .cancel-btn {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.edit-btn {
+  background: #4CAF50;
+  color: white;
+}
+.delete-btn {
+  background: #FF5733;
+  color: white;
+  border-radius: 0px;
+}
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+  border-radius: 0px;
+}
+.edit-btn:hover, .delete-btn:hover {
+  opacity: 0.8;
+}
+.add-user-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #007bff;
+  border: none;
+  transition: background 0.2s ease-in-out;
+}
+.add-user-btn:hover {
+  opacity: 0.7;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal */
+.modal-header,
+.modal-footer {
+  border: none;
+}

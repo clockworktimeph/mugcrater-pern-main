@@ -1,0 +1,80 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Section Grey Banner
+/*-----------------------------------------------------------------------------------*/
+.borderLineContentWht {
+  width: 52px;
+  height: 3px;
+  margin: 0px 0px 0px 15px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.borderLineContentBlk {
+  width: 52px;
+  height: 3px;
+  margin: 0px 0px 0px 15px;
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+.aboutSection {
+  height: auto;
+  padding: 100px 0px 10px 0px;
+  background-color: #333333;
+}
+.aboutSection .row {
+  margin: 0px 0px 65px 0px;
+}
+.aboutSection .contentTitle {
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+}
+.aboutSection .contentIntro {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 98%;
+}
+.contentSectionGreyBanner {
+  height: auto;
+  padding-top: 105px;
+  padding-bottom: 65px;
+  background-color: #333333;
+}
+.contentSectionGreyBanner .contentTitle {
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+}
+.contentSectionGreyBanner .contentIntro {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 98%;
+}
+.borderLineContent {
+  width: 54px;
+  height: 4px;
+  margin: 0px 0px 0px 16px;
+  background-color: #cb3694;
+  border: 1px solid #cb3694;
+  opacity: unset;
+}
+.aboutImg {
+  margin: auto;
+  width: 100%;
+}
+.aboutDesc {
+  margin-top: 32px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 110%;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Mobile Responsive
+/*-----------------------------------------------------------------------------------*/
+/* Max Width 992px */
+@media (max-width: 992px) {
+  
+}

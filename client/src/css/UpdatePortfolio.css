@@ -1,0 +1,43 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Update Portfolio
+/*-----------------------------------------------------------------------------------*/ 
+
+.edit-portfolio-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  flex-direction: column;
+}
+.edit-portfolio-container .form-control {
+  margin-bottom: 10px;
+  border-radius: unset;
+}
+.edit-portfolio-container input {
+  height: 56px;
+}
+.edit-portfolio-container .form-select {
+  margin-bottom: 10px;
+  border-radius: unset;
+  height: 56px;
+  color: #212529;
+}
+.edit-portfolio-container textarea.form-control{
+  height: 400px;
+}
+.edit-portfolio-container .btn-primary {
+  width: 100%;
+  height: 56px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #39489e;
+  border: none;
+  border-radius: unset;
+  transition: background 0.3s ease-in-out;
+}
+.edit-portfolio-container .btn-primary:hover {
+  background-color: #0056b3;
+}
+.edit-portfolio-container .error-text{
+  color: red;
+}

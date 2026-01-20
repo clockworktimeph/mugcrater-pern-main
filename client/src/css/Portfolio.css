@@ -1,0 +1,113 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Portfolio
+/*-----------------------------------------------------------------------------------*/
+#portfolio {
+  padding-top: 52px;
+  /* padding-bottom: 65px; */
+  background: #ffffff;
+  position: relative;
+}
+/* #portfolio .portfolio-list {
+  margin-bottom: 50px;
+} */
+#portfolio .portfolio-list ul {
+  display: inline-block;
+  margin: 0;
+}
+#portfolio .portfolio-list ul li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  line-height: 30px;
+  cursor: pointer;
+  font-family: "Poppins", helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
+  color: #cb3694;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+#portfolio .portfolio-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.portfolio-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 260px;
+}
+.portfolio-thumbnail img {
+  max-width: 90%;
+}
+.portfolioSpace{
+  margin-top: 3%;
+}
+
+
+.portfolioSection {
+  height: auto;
+  padding: 100px 0px 50px 0px;
+  background-color: #ffffff;
+}
+.portfolioSection .row {
+  margin: 0px 0px 65px 0px;
+}
+.portfolioSection .contentTitle {
+  font-weight: bold;
+  font-size: 56px;
+  color: #333333;
+}
+.portfolioSection .contentIntro {
+  font-weight: bold;
+  font-size: 40px;
+  color: #333333;
+  line-height: 98%;
+}
+
+.portfolioSection .aboutTitle {
+  margin-top: 50px;
+}
+
+.portfolioSection .aboutDesc {
+  margin-top: 32px;
+  color: #333333;
+  font-size: 24px;
+  line-height: 110%;
+}
+
+.portfolioSection img {
+  width: 100%;
+  box-shadow: #cb369466 5px 5px,  
+            #cb36944D 10px 10px,  
+            #cb369433 15px 15px,  
+            #cb369419 20px 20px,  
+            #cb36940D 25px 25px;
+}
+
+.portfolioSection .contentBtn a{
+  color: #ffffff;
+  background: #333333;
+  padding: 10px 35px 10px 35px;
+}
+
+.portfolioSection .contentBtn a:link {
+  text-decoration: none;
+}
+
+.pagination{
+  margin: 150px 0px 100px 0px;
+}

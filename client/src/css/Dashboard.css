@@ -1,0 +1,29 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Dashboard
+/*-----------------------------------------------------------------------------------*/
+
+/* Main Dashboard Content */
+body{
+  background: #f4f4f4;
+}
+.dashboard-content {
+  flex: 1;
+  padding: 45px;
+  background: #ffffff;
+  overflow-y: auto;
+  margin: 50px 50px 50px 350px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+  .dashboard-content {
+    padding-top: 20px;
+  }
+}

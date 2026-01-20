@@ -1,0 +1,665 @@
+/*
+  Theme Name: Folio
+  Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  Author: BootstrapMade.com
+  Author URL: https://bootstrapmade.com
+*/
+
+/*  General Styling
+/*-----------------------------------------------------------------------------------*/
+html,
+body {
+  height: 100%;
+  /* background-color: #333333; */
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/***********************************************************
+  *														   *
+  * 	  	   DEFAULTS, TYPOGRAPHTY AND GLOBAL STYLES         *
+  *														   *
+  ***********************************************************/
+@font-face {
+  font-family: Jost_Reg;
+  src: url(../fonts/Jost_Reg.ttf);
+}
+@font-face {
+  font-family: Jost_Reg;
+  src: url(../fonts/Jost_Reg.ttf);
+}
+@font-face {
+  font-family: Jost_Reg;
+  src: url(../fonts/Jost_Reg.ttf);
+}
+body {
+  background-color: #f5f5f5;
+  font-family: "Jost_Reg", sans-serif;
+  color: #000;
+  font-size: 14px;
+}
+
+/************************************
+  * 			Typography              		*
+  ************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost_Reg", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  line-height: 50px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 42px;
+}
+h3 {
+  font-size: 22px;
+  line-height: 100%;
+}
+h4 {
+  font-size: 16px;
+  line-height: 100%;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+p,
+ol li,
+ul li,
+blockquote {
+  font-size: 15px;
+  color: #000;
+}
+
+/************************************
+  * Section CSS Styles               *
+  ************************************/
+.bg-black {
+  background-color: #000;
+}
+.img-holder {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+/******************************
+  * Margins                    *
+  *****************************/
+.marTop35px {
+  margin-top: 35px;
+}
+
+.marTop100px {
+  margin-top: 100px;
+}
+
+.marAuto {
+  margin: auto;
+}
+
+.marAutoMarTop100px {
+  margin: 100px;
+}
+
+.rightColumn {
+  margin-bottom: 35px;
+}
+
+/******************************
+  * Header                     *
+  *****************************/
+.header {
+  top: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  transition: 0.1s;
+}
+.main-header {
+  background-color: #333333;
+  top: 0px;
+}
+.header li {
+  /* margin: auto;
+   text-decoration: none;
+   width: auto;
+   border: 1px solid red; */
+
+  margin: 0px 7px 0px 7px;
+  text-decoration: none;
+}
+.header li a {
+  margin: 5px;
+}
+.header li img {
+  margin: 5px 0px 0px 0px;
+  max-height: 2rem;
+}
+.header li a:hover {
+  text-decoration: none;
+}
+.site-logo img {
+  max-height: 3rem;
+}
+.main-nav .navbar-brand img {
+  margin: 5px 0px 0px 0px;
+}
+.main-nav .main-navbar-brand img {
+  margin: 5px 0px 0px 0px;
+  max-height: 2rem;
+}
+.main-nav ul a {
+  font-size: 16px;
+  color: #ffffff;
+}
+.main-nav ul a:hover {
+  color: #fcfcfc;
+}
+.right-nav span {
+  font-size: 16px;
+}
+.right-nav img {
+  width: 100%;
+  height: 36px;
+}
+.hamburger-menu span {
+  color: #ffffff;
+}
+.hamburger-menu span::before {
+  content: "\f0c9";
+  font-size: 30px;
+  cursor: pointer;
+}
+.openbtn {
+  font-size: 36px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #333333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+.sidebar a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 14px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.gradientColor {
+  background: linear-gradient(to right, #39489e, #d2489a);
+  padding: 15% 0% 0% 0%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.65;
+}
+.carousel-content {
+  width: 100%;
+  max-width: 1300px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.labelBanner {
+  height: 100%;
+  padding: 50px 0px 0px 0px;
+}
+.labelBanner .contentLeft {
+  text-align: right;
+}
+.labelBanner .contentRight {
+  margin: 0px 0px 20px 15px;
+}
+.labelBanner .contentRight img {
+  width: 100%;
+  height: 100%;
+}
+.tagLineMinor1Class {
+  margin: 0px 0px 0px 60px;
+  text-align: left !important;
+}
+.tagLineMinor1 {
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 34px;
+}
+.tagLineMinor {
+  font-family: Jost_Reg;
+  font-weight: bold;
+  font-size: 33px;
+}
+.borderLine {
+  width: 54px;
+  height: 4px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.tagLineMajor {
+  font-family: "Jost_Reg";
+  font-size: 13px;
+  line-height: 95%;
+}
+.contentLeft .contentBtn {
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+}
+.bannerBtn {
+  padding: 10px 35px 10px 35px;
+  font-size: 23px;
+  color: #ffffff;
+  border: 1px solid #39489e;
+  background-color: #39489e;
+  border-radius: 1px;
+}
+.bannerBtn:hover {
+  color: #ffffff;
+  border: 1px solid #d2489a;
+  background-color: #d2489a;
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  About Us
+/*-----------------------------------------------------------------------------------*/
+.borderLineContentWht {
+  width: 52px;
+  height: 3px;
+  margin: 0px 0px 0px 15px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.borderLineContentBlk {
+  width: 52px;
+  height: 3px;
+  margin: 0px 0px 0px 15px;
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+.aboutSection {
+  height: auto;
+  padding: 100px 0px 10px 0px;
+  background-color: #333333;
+}
+.aboutSection .row {
+  margin: 0px 0px 65px 0px;
+}
+.aboutSection .contentTitle {
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+}
+.aboutSection .contentIntro {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 98%;
+}
+.contentSectionGrey {
+  height: auto;
+  padding-top: 52px;
+  padding-bottom: 65px;
+  background-color: #333333;
+}
+.contentSectionGrey .contentTitle {
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+}
+.contentSectionGrey .contentIntro {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 98%;
+}
+.borderLineContent {
+  width: 52px;
+  height: 3px;
+  margin: 0px 0px 0px 16px;
+  background-color: #cb3694;
+  border: 1px solid #cb3694;
+}
+.aboutImg {
+  margin: auto;
+  width: 100%;
+}
+.aboutDesc {
+  margin-top: 32px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 110%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Portfolio
+/*-----------------------------------------------------------------------------------*/
+#portfolio {
+  padding-top: 52px;
+  /* padding-bottom: 65px; */
+  background: #ffffff;
+  position: relative;
+}
+
+#portfolio .portfolio-list {
+  margin-bottom: 50px;
+}
+
+#portfolio .portfolio-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#portfolio .portfolio-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  line-height: 30px;
+  cursor: pointer;
+  font-family: "Poppins", helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
+  color: #cb3694;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.portfolio-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 260px;
+}
+
+.portfolio-thumbnail img {
+  max-width: 100%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Why
+/*-----------------------------------------------------------------------------------*/
+.contentSectionWhiteGrey {
+  height: auto;
+  padding-top: 52px;
+  padding-bottom: 65px;
+  background-color: #f7f7f7;
+}
+.contentSectionWhiteGrey .contentTitle {
+  font-weight: bold;
+  font-size: 56px;
+  color: #333333;
+}
+.contentSectionWhiteGrey .contentIntro {
+  font-weight: bold;
+  font-size: 40px;
+  color: #333333;
+  line-height: 98%;
+}
+.contentSectionWhiteGrey .contentDesc {
+  color: #333333;
+  line-height: 98%;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Contact Us
+/*-----------------------------------------------------------------------------------*/
+.aboutDesc button{
+  padding: 10px 35px 10px 35px !important;
+  font-size: 23px !important;
+  font-weight: unset !important;
+  font-family: "Jost_Reg", sans-serif !important;
+  color: #ffffff !important;
+  border: 1px solid #39489e !important;
+  background-color: #39489e !important;
+  border-radius: 1px !important;
+  outline: unset !important;
+}
+.aboutDesc button:hover{
+  color: #ffffff !important;
+  border: 1px solid #d2489a !important;
+  background-color: #d2489a !important;
+  text-decoration: none !important;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Footer
+/*-----------------------------------------------------------------------------------*/
+#footer {
+  background: #cb3694;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer .socials-media {
+  width: 100%;
+}
+
+#footer .socials-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+#footer .socials-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer .socials-media ul li a {
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer .socials-media ul li a:hover {
+  color: #39489e;
+  /* -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s; */
+}
+
+#footer .ion-ios-email:before {
+  font-size: 33px;
+}
+
+#footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.credits {
+  font-size: 13px;
+}

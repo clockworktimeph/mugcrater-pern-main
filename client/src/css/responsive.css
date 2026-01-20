@@ -1,0 +1,251 @@
+@charset "utf-8";
+/******************************
+ *   	Width Media Queries  		*
+ ******************************/
+
+/******************************
+ * Width                       *
+ *****************************/
+@media (min-width: 576px) {
+}
+
+/* Max Width 576px */
+@media (max-width: 576px) {
+  /* .carousel .labelBanner {max-height: 430px;} */
+}
+
+/* Min Width 768px */
+@media (min-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+  .header .container {
+    max-width: 768px;
+  }
+  .contentLeft .tagLineMinor {
+    font-size: 34px;
+  }
+}
+
+/* Max Width 768px */
+@media (max-width: 768px) {
+  .header .container {
+    max-width: 768px;
+  }
+}
+
+/* Min Width 992px */
+@media (min-width: 992px) {
+  .container {
+    max-width: 768px;
+  }
+  .header .container {
+    max-width: 992px;
+  }
+  .contentLeft .tagLineMinor {
+    font-size: 70px;
+  }
+  .appQuote .contentTitle {
+    text-align: left;
+  }
+}
+
+/* Max Width 992px */
+@media (max-width: 992px) {
+  .header .container {
+    max-width: 992px;
+  }
+  .site-logo img {
+    max-height: 3rem;
+  }
+  .carousel .labelBanner {
+    max-width: 868px;
+    padding: 100px 0px 0px 0px;
+  }
+  .labelBanner .contentRight {
+    margin-top: unset;
+  }
+  .labelBanner .contentRight img {
+    width: 200px;
+    height: 100%;
+  }
+  .labelBanner .contentLeft {
+    text-align: center;
+  }
+  .labelBanner .borderLine {
+    height: 1px;
+    /* background-color: unset;
+    border: unset; */
+  }
+  .contentLeft .socmedDesc {
+    margin: 15px 0px 0px 0px;
+    line-height: 17px;
+  }
+  .contentLeft .socmedIcon .row {
+    margin: auto;
+    float: none;
+    width: 82px;
+  }
+  .contentLeft .socmedIcon a {
+    margin: auto;
+    margin-top: 5px;
+  }
+  .contentLeft .socmedIcon .row img {
+    margin: auto;
+  }
+  .contentLeft .tagLineMinor1 {
+    font-size: 16px;
+  }
+  .contentRight .tagLineMinor1{
+    font-size: 16px;
+  }
+  .contentRight .tagLineMinor1Class{
+    margin: 10px 0px 0px 10px;
+    text-align: left !important;
+  }
+  .contentLeft .tagLineMinor {
+    font-size: 36px;
+    line-height: 100%;
+  }
+  /* .carousel-item img {height: 100%;} */
+  .appQuote .contentTitle {
+    text-align: center;
+  }
+  .appSection .appBadge img {
+    margin: auto;
+  }
+
+  .aboutSection .contentTitle {
+    font-size: 36px;
+  }
+  .aboutSection .contentIntro {
+    font-size: 20px;
+  }
+  .aboutSection .aboutDesc {
+    font-size: 16px;
+  }
+  .serviceSection .contentTitle {
+    font-size: 36px;
+  }
+  .toolsSection .contentTitle {
+    font-size: 36px;
+  }
+  .contactSection .contentTitle {
+    font-size: 36px;
+  }
+  .contactSection .contentIntro {
+    font-size: 20px;
+  }
+  .contactSection .txtFrm {
+    font-size: 20px;
+  }
+
+  .aboutSection2 .contentTitle {
+    font-size: 30px;
+  }
+  .contentDesc b {
+    font-weight: 900;
+    font-size: 19px;
+  }
+  /* .applySection .contentTitle{font-size: 30px;} */
+  .cardSection .table td,
+  .table th {
+    font-size: 14px;
+  }
+
+  .footerSection .row {
+    margin: unset;
+  }
+}
+
+/* Here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Min Width 1200px */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 940px;
+  }
+  .header .container {
+    max-width: 1200px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: unset;
+  }
+  .contentLeft .tagLineMinor {
+    font-size: 44px;
+    line-height: 100%;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 95%;
+  }
+  .appSection .appBadge img {
+    margin: 35px 0px 0px 0px;
+  }
+  .labelBanner .contentRight {
+    margin-top: 60px;
+  }
+}
+
+/* Max Width 1200px */
+@media (max-width: 1200px) {
+  .header .container {
+    max-width: 1200px;
+  }
+  .carousel-item img {
+    width: 100%;
+  }
+  .serviceImg span {
+    font-size: 24px;
+  }
+  .toolsImg .media {
+    padding: unset;
+  }
+}
+
+/******************************
+ * Height                     *
+ *****************************/
+/* Max Height 568px */
+@media (max-height: 568px) {
+  /* .tagLineMajor {font-size: 14px;} COMMENTED*/
+  /* .contentLeft .socmedDesc {font-size: 13px;}
+	.labelBanner .contentRight{margin-top: 18px;} */
+}
+
+/* Max Height 576px */
+@media (max-height: 576px) {
+  /* .labelBanner .contentRight img {width: 155px; height: 100%;}
+	.tagLineMinor{font-size: 30px;} */
+}
+
+/* Max Height 667px */
+@media (max-height: 667px) {
+  /* .tagLineMinor {font-size: 22px;} */
+}
+
+/* Max Height 1200px */
+@media (max-height: 1200px) {
+  /* .labelBanner .contentRight img {width: 400px; height: 100%;}
+	.tagLineMinor {font-size: 47px;} */
+}
+
+/******************************
+ * Login/Register             *
+ *****************************/
+@media screen and (max-width: 425px) {
+  .myLoginPage .cardContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .myLoginPage .card.fat {
+    padding: 0;
+  }
+
+  .myLoginPage .card.fat .card-body {
+    padding: 15px;
+  }
+}

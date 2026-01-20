@@ -1,0 +1,24 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Why
+/*-----------------------------------------------------------------------------------*/
+.contentSectionWhiteGrey {
+  height: auto;
+  padding-top: 52px;
+  padding-bottom: 65px;
+  background-color: #f7f7f7;
+}
+.contentSectionWhiteGrey .contentTitle {
+  font-weight: bold;
+  font-size: 56px;
+  color: #333333;
+}
+.contentSectionWhiteGrey .contentIntro {
+  font-weight: bold;
+  font-size: 40px;
+  color: #333333;
+  line-height: 98%;
+}
+.contentSectionWhiteGrey .contentDesc {
+  color: #333333;
+  line-height: 98%;
+}
