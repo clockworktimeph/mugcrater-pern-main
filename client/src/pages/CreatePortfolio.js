@@ -16,7 +16,7 @@ const DashboardCreatePortfolio = () => {
     url: "",
   });
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  const [setError] = useState("");
 
   // Handle Form Inputs
   const handleChange = (e) => {

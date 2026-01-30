@@ -10,7 +10,7 @@ const DashboardCreateUser = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ username: "", email: "", role: "" });
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  const [setError] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

@@ -18,7 +18,7 @@ export const sequelize = new Sequelize(
 dotenv.config();
 const { Pool } = pkg;
 
-// Run Local
+// Local:
 // const pool = new Pool({
 //   user: process.env.DB_USER,
 //   password: process.env.DB_PASSWORD,
@@ -27,7 +27,7 @@ const { Pool } = pkg;
 //   database: process.env.DB_DATABASE,
 // });
 
-// NEON
+// Live: NEON
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false,
